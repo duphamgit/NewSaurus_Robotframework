@@ -7,12 +7,18 @@ Documentation     A resource file with reusable keywords and variables.
 Library           Selenium2Library
 
 *** Variables ***
-${SERVER}   http://dev-swf.goappable.com
+${SERVER_DEV}   http://dev-swf.goappable.com
+${SERVER_STAGING}   http://staging-swf.goappable.com
+#Environment Testing Setup
+${SERVER}   ${SERVER_STAGING}
 ${BROWSER}  chrome
 ${DELAY}    1
+#Sign In Element
 ${SIGN_IN_MENU}  xpath=/html/body/header/div/div/div/div/div[2]/div/ul/li[2]/a
 ${SIGN_IN_BUTTON}   xpath=/html/body/section/section/div/form/div[3]/button
+#screenshot
 ${SCREENSHOT}   screenshot
+#
 ${VALID_EMAIL}  dupham@goappable.com
 ${VALID_PASSWORD}   23081991
 ${EMAIL_TEXTFIELD}  XPATH=/html/body/section/section/div/form/div[1]/input

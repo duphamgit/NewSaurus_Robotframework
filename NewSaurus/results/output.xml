@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20170718 05:42:14.177" generator="Robot 3.0.2 (Python 2.7.13 on darwin)">
+<suite source="/Users/du/PycharmProjects/GitHub/NewSaurus_Robotframework/NewSaurus/valid_functions.robot" id="s1" name="Valid Functions">
+<test id="s1-t1" name="SIGN_IN_3_007">
+<kw name="Enter [Main] screen URL to Browser" library="resource">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>${SERVER}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20170718 05:42:14.298" level="INFO">Opening browser 'chrome' to base url 'http://staging-swf.goappable.com'</msg>
+<status status="PASS" endtime="20170718 05:42:23.044" starttime="20170718 05:42:14.298"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20170718 05:42:23.301" starttime="20170718 05:42:23.044"></status>
+</kw>
+<kw name="Set Selenium Speed" library="Selenium2Library">
+<doc>Sets the delay in seconds that is waited after each Selenium command.</doc>
+<arguments>
+<arg>${DELAY}</arg>
+</arguments>
+<status status="PASS" endtime="20170718 05:42:23.302" starttime="20170718 05:42:23.302"></status>
+</kw>
+<kw name="Main Screen Screen Should Be Open" library="resource">
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>Sign In</arg>
+</arguments>
+<status status="PASS" endtime="20170718 05:42:24.342" starttime="20170718 05:42:23.303"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=${SCREENSHOT}-MAIN_SCREEN.png</arg>
+</arguments>
+<msg timestamp="20170718 05:42:25.688" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-MAIN_SCREEN.png"&gt;&lt;img src="screenshot-MAIN_SCREEN.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170718 05:42:25.689" starttime="20170718 05:42:24.342"></status>
+</kw>
+<status status="PASS" endtime="20170718 05:42:25.689" starttime="20170718 05:42:23.303"></status>
+</kw>
+<status status="PASS" endtime="20170718 05:42:25.689" starttime="20170718 05:42:14.297"></status>
+</kw>
+<kw name="Main Screen Screen Should Be Open" library="resource">
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>Sign In</arg>
+</arguments>
+<status status="PASS" endtime="20170718 05:42:26.704" starttime="20170718 05:42:25.690"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=${SCREENSHOT}-MAIN_SCREEN.png</arg>
+</arguments>
+<msg timestamp="20170718 05:42:27.909" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-MAIN_SCREEN.png"&gt;&lt;img src="screenshot-MAIN_SCREEN.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170718 05:42:27.910" starttime="20170718 05:42:26.704"></status>
+</kw>
+<status status="PASS" endtime="20170718 05:42:27.910" starttime="20170718 05:42:25.689"></status>
+</kw>
+<kw name="Go to [Sign In] screen" library="resource">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${SIGN_IN_MENU}</arg>
+</arguments>
+<msg timestamp="20170718 05:42:27.912" level="INFO">Clicking element 'xpath=/html/body/header/div/div/div/div/div[2]/div/ul/li[2]/a'.</msg>
+<status status="PASS" endtime="20170718 05:42:30.026" starttime="20170718 05:42:27.912"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=${SCREENSHOT}-SIGN_IN_SCREEN.png</arg>
+</arguments>
+<msg timestamp="20170718 05:42:31.230" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-SIGN_IN_SCREEN.png"&gt;&lt;img src="screenshot-SIGN_IN_SCREEN.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170718 05:42:31.230" starttime="20170718 05:42:30.026"></status>
+</kw>
+<status status="PASS" endtime="20170718 05:42:31.230" starttime="20170718 05:42:27.911"></status>
+</kw>
+<kw name="Input valid Email and Password" library="resource">
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>${EMAIL_TEXTFIELD}</arg>
+<arg>${VALID_EMAIL}</arg>
+</arguments>
+<msg timestamp="20170718 05:42:31.232" level="INFO">Typing text 'dupham@goappable.com' into text field 'XPATH=/html/body/section/section/div/form/div[1]/input'</msg>
+<status status="PASS" endtime="20170718 05:42:34.522" starttime="20170718 05:42:31.231"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>${PASSWORD_TEXTFIELD}</arg>
+<arg>${VALID_PASSWORD}</arg>
+</arguments>
+<msg timestamp="20170718 05:42:34.522" level="INFO">Typing text '23081991' into text field 'XPATH=/html/body/section/section/div/form/div[2]/input'</msg>
+<status status="PASS" endtime="20170718 05:42:37.676" starttime="20170718 05:42:34.522"></status>
+</kw>
+<status status="PASS" endtime="20170718 05:42:37.676" starttime="20170718 05:42:31.231"></status>
+</kw>
+<kw name="Click on [Sign In] button" library="resource">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${SIGN_IN_BUTTON}</arg>
+</arguments>
+<msg timestamp="20170718 05:42:37.678" level="INFO">Clicking element 'xpath=/html/body/section/section/div/form/div[3]/button'.</msg>
+<status status="PASS" endtime="20170718 05:42:39.800" starttime="20170718 05:42:37.677"></status>
+</kw>
+<kw name="Set Selenium Speed" library="Selenium2Library">
+<doc>Sets the delay in seconds that is waited after each Selenium command.</doc>
+<arguments>
+<arg>${DELAY}</arg>
+</arguments>
+<status status="PASS" endtime="20170718 05:42:39.801" starttime="20170718 05:42:39.800"></status>
+</kw>
+<kw name="User can sign in successfully and redirect to [Home] screen" library="resource">
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>Draft</arg>
+</arguments>
+<status status="PASS" endtime="20170718 05:42:42.065" starttime="20170718 05:42:39.801"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=${SCREENSHOT}-HOME_SCREEN.png</arg>
+</arguments>
+<msg timestamp="20170718 05:42:43.282" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-HOME_SCREEN.png"&gt;&lt;img src="screenshot-HOME_SCREEN.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170718 05:42:43.282" starttime="20170718 05:42:42.065"></status>
+</kw>
+<status status="PASS" endtime="20170718 05:42:43.282" starttime="20170718 05:42:39.801"></status>
+</kw>
+<status status="PASS" endtime="20170718 05:42:43.283" starttime="20170718 05:42:37.676"></status>
+</kw>
+<kw name="User can sign in successfully and redirect to [Home] screen" library="resource">
+<kw name="Wait Until Page Contains" library="Selenium2Library">
+<doc>Waits until `text` appears on current page.</doc>
+<arguments>
+<arg>Draft</arg>
+</arguments>
+<status status="PASS" endtime="20170718 05:42:44.309" starttime="20170718 05:42:43.284"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>filename=${SCREENSHOT}-HOME_SCREEN.png</arg>
+</arguments>
+<msg timestamp="20170718 05:42:45.524" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-HOME_SCREEN.png"&gt;&lt;img src="screenshot-HOME_SCREEN.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170718 05:42:45.524" starttime="20170718 05:42:44.309"></status>
+</kw>
+<status status="PASS" endtime="20170718 05:42:45.524" starttime="20170718 05:42:43.283"></status>
+</kw>
+<status status="PASS" endtime="20170718 05:42:45.525" critical="yes" starttime="20170718 05:42:14.296"></status>
+</test>
+<doc>A test suite with a single test for valid functions.
+
+This test has a workflow that is created using keywords in
+the imported resource file.</doc>
+<status status="PASS" endtime="20170718 05:42:45.527" starttime="20170718 05:42:14.183"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Valid Functions" pass="1">Valid Functions</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
