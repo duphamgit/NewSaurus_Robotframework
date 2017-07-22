@@ -1,0 +1,2097 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20170721 08:36:40.337" generator="Robot 3.0.2 (Python 2.7.13 on darwin)">
+<suite source="/Users/du/qa-automation-test/NewSaurus/valid_signup_individual_tc.robot" id="s1" name="Valid Signup Individual Tc">
+<test id="s1-t1" name="SIGN_UP_1_INDIVIDUAL_001">
+<kw name="Enter [Main] screen URL to Browser" library="SignIn_keyword">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>${SERVER}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20170721 08:36:40.557" level="INFO">Opening browser 'chrome' to base url 'http://dev-swf.goappable.com'</msg>
+<status status="PASS" endtime="20170721 08:36:48.890" starttime="20170721 08:36:40.556"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20170721 08:36:49.357" starttime="20170721 08:36:48.890"></status>
+</kw>
+<kw name="Set Selenium Speed" library="Selenium2Library">
+<doc>Sets the delay in seconds that is waited after each Selenium command.</doc>
+<arguments>
+<arg>${DELAY}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:36:49.358" starttime="20170721 08:36:49.358"></status>
+</kw>
+<kw name="Main Screen Should Be Open" library="SignIn_keyword">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNUP_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:36:50.391" starttime="20170721 08:36:49.359"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNIN_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:36:51.421" starttime="20170721 08:36:50.391"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SURVEYSAURUS_HEADER_LOGO}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:36:52.447" starttime="20170721 08:36:51.422"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>${SCREENSHOT}-MAIN_SCREEN.png</arg>
+</arguments>
+<msg timestamp="20170721 08:36:53.817" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-MAIN_SCREEN.png"&gt;&lt;img src="screenshot-MAIN_SCREEN.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170721 08:36:53.817" starttime="20170721 08:36:52.447"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:36:53.818" starttime="20170721 08:36:49.358"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:36:53.818" starttime="20170721 08:36:40.556"></status>
+</kw>
+<kw name="Main Screen Should Be Open" library="SignIn_keyword">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNUP_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:36:54.830" starttime="20170721 08:36:53.819"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNIN_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:36:55.842" starttime="20170721 08:36:54.831"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SURVEYSAURUS_HEADER_LOGO}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:36:56.854" starttime="20170721 08:36:55.843"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>${SCREENSHOT}-MAIN_SCREEN.png</arg>
+</arguments>
+<msg timestamp="20170721 08:36:58.071" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-MAIN_SCREEN.png"&gt;&lt;img src="screenshot-MAIN_SCREEN.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170721 08:36:58.071" starttime="20170721 08:36:56.854"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:36:58.072" starttime="20170721 08:36:53.818"></status>
+</kw>
+<kw name="Go to [Create an account] screen" library="SignUp_keyword">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${sign_up_menu}</arg>
+</arguments>
+<msg timestamp="20170721 08:36:58.073" level="INFO">Clicking element 'xpath=/html/body/header/div/div/div/div/div[2]/div/ul/li[1]/a'.</msg>
+<status status="PASS" endtime="20170721 08:37:00.172" starttime="20170721 08:36:58.073"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:37:00.173" starttime="20170721 08:36:58.072"></status>
+</kw>
+<kw name="Select [Individual] tab" library="SignUp_keyword">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${INDIVIDUAL_BUTTON}</arg>
+</arguments>
+<msg timestamp="20170721 08:37:00.174" level="INFO">Clicking element 'xpath=/html/body/section/div/div/div/ul/li[1]/a'.</msg>
+<status status="PASS" endtime="20170721 08:37:02.292" starttime="20170721 08:37:00.174"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:37:02.292" starttime="20170721 08:37:00.173"></status>
+</kw>
+<kw name="Observe and check GUI of Sign Up for [Individual] screen" library="SignUp_keyword">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${INDIVIDUAL_BUTTON}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:37:03.308" starttime="20170721 08:37:02.293"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ORGANIZATION_BUTTON}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:37:04.332" starttime="20170721 08:37:03.308"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${INDIVIDUAL_FIRSTNAME_TEXTFIELD}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:37:05.362" starttime="20170721 08:37:04.333"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${INDIVIDUAL_LASTNAME_TEXTFIELD}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:37:06.391" starttime="20170721 08:37:05.362"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${INDIVIDUAL_EMAIL_TEXTFIELD}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:37:07.421" starttime="20170721 08:37:06.391"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${INDIVIDUAL_SIGNUP_PASSWORD_TEXTFIELD}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:37:08.446" starttime="20170721 08:37:07.421"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${INDIVIDUAL_SIGNUP_CONFIRM_PASSWORD_TEXTFIELD}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:37:09.473" starttime="20170721 08:37:08.446"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${CHECKBOX}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:37:10.499" starttime="20170721 08:37:09.474"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${INDIVIDUAL_CREATEACCOUNT_BUTTON}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:37:11.527" starttime="20170721 08:37:10.499"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:37:11.527" starttime="20170721 08:37:02.293"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>${SCREENSHOT}-SIGNUP_1_INDIVIDUAL_001.png</arg>
+</arguments>
+<msg timestamp="20170721 08:37:12.750" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-SIGNUP_1_INDIVIDUAL_001.png"&gt;&lt;img src="screenshot-SIGNUP_1_INDIVIDUAL_001.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170721 08:37:12.750" starttime="20170721 08:37:11.528"></status>
+</kw>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20170721 08:37:13.823" starttime="20170721 08:37:12.750"></status>
+</kw>
+<doc>Check GUI of Sign Up for [Individual] screen</doc>
+<status status="PASS" endtime="20170721 08:37:13.824" critical="yes" starttime="20170721 08:36:40.555"></status>
+</test>
+<test id="s1-t2" name="SIGN_UP_1_INDIVIDUAL_002">
+<kw name="Enter [Main] screen URL to Browser" library="SignIn_keyword">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>${SERVER}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20170721 08:37:13.827" level="INFO">Opening browser 'chrome' to base url 'http://dev-swf.goappable.com'</msg>
+<status status="PASS" endtime="20170721 08:37:24.922" starttime="20170721 08:37:13.826"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20170721 08:37:26.393" starttime="20170721 08:37:24.923"></status>
+</kw>
+<kw name="Set Selenium Speed" library="Selenium2Library">
+<doc>Sets the delay in seconds that is waited after each Selenium command.</doc>
+<arguments>
+<arg>${DELAY}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:37:26.395" starttime="20170721 08:37:26.394"></status>
+</kw>
+<kw name="Main Screen Should Be Open" library="SignIn_keyword">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNUP_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:37:27.422" starttime="20170721 08:37:26.396"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNIN_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:37:28.448" starttime="20170721 08:37:27.422"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SURVEYSAURUS_HEADER_LOGO}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:37:29.477" starttime="20170721 08:37:28.448"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>${SCREENSHOT}-MAIN_SCREEN.png</arg>
+</arguments>
+<msg timestamp="20170721 08:37:30.826" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-MAIN_SCREEN.png"&gt;&lt;img src="screenshot-MAIN_SCREEN.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170721 08:37:30.826" starttime="20170721 08:37:29.477"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:37:30.826" starttime="20170721 08:37:26.395"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:37:30.826" starttime="20170721 08:37:13.825"></status>
+</kw>
+<kw name="Main Screen Should Be Open" library="SignIn_keyword">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNUP_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:37:31.840" starttime="20170721 08:37:30.827"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNIN_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:37:32.854" starttime="20170721 08:37:31.840"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SURVEYSAURUS_HEADER_LOGO}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:37:33.865" starttime="20170721 08:37:32.855"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>${SCREENSHOT}-MAIN_SCREEN.png</arg>
+</arguments>
+<msg timestamp="20170721 08:37:35.082" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-MAIN_SCREEN.png"&gt;&lt;img src="screenshot-MAIN_SCREEN.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170721 08:37:35.082" starttime="20170721 08:37:33.865"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:37:35.083" starttime="20170721 08:37:30.827"></status>
+</kw>
+<kw name="Go to [Create an account] screen" library="SignUp_keyword">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${sign_up_menu}</arg>
+</arguments>
+<msg timestamp="20170721 08:37:35.084" level="INFO">Clicking element 'xpath=/html/body/header/div/div/div/div/div[2]/div/ul/li[1]/a'.</msg>
+<status status="PASS" endtime="20170721 08:37:37.193" starttime="20170721 08:37:35.084"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:37:37.194" starttime="20170721 08:37:35.083"></status>
+</kw>
+<kw name="Select [Individual] tab" library="SignUp_keyword">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${INDIVIDUAL_BUTTON}</arg>
+</arguments>
+<msg timestamp="20170721 08:37:37.195" level="INFO">Clicking element 'xpath=/html/body/section/div/div/div/ul/li[1]/a'.</msg>
+<status status="PASS" endtime="20170721 08:37:39.308" starttime="20170721 08:37:37.195"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:37:39.308" starttime="20170721 08:37:37.194"></status>
+</kw>
+<kw name="Input into [First Name]" library="SignUp_keyword">
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>${INDIVIDUAL_FIRSTNAME_TEXTFIELD}</arg>
+<arg>${INDIVIDUAL_FIRSTNAME}</arg>
+</arguments>
+<msg timestamp="20170721 08:37:39.309" level="INFO">Typing text 'DU' into text field 'xpath=/html/body/section/div/div/form/div[1]/input'</msg>
+<status status="PASS" endtime="20170721 08:37:42.487" starttime="20170721 08:37:39.309"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:37:42.487" starttime="20170721 08:37:39.308"></status>
+</kw>
+<kw name="User can input into [First Name] field successful" library="SignUp_keyword">
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>${SCREENSHOT}-SIGNUP_1_INDIVIDUAL_002.png</arg>
+</arguments>
+<msg timestamp="20170721 08:37:43.715" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-SIGNUP_1_INDIVIDUAL_002.png"&gt;&lt;img src="screenshot-SIGNUP_1_INDIVIDUAL_002.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170721 08:37:43.716" starttime="20170721 08:37:42.489"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:37:43.716" starttime="20170721 08:37:42.488"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>${SCREENSHOT}-SIGNUP_1_INDIVIDUAL_002.png</arg>
+</arguments>
+<msg timestamp="20170721 08:37:44.941" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-SIGNUP_1_INDIVIDUAL_002.png"&gt;&lt;img src="screenshot-SIGNUP_1_INDIVIDUAL_002.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170721 08:37:44.941" starttime="20170721 08:37:43.717"></status>
+</kw>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20170721 08:37:46.005" starttime="20170721 08:37:44.942"></status>
+</kw>
+<doc>User can input into [First Name] field</doc>
+<status status="PASS" endtime="20170721 08:37:46.005" critical="yes" starttime="20170721 08:37:13.825"></status>
+</test>
+<test id="s1-t3" name="SIGN_UP_1_INDIVIDUAL_003">
+<kw name="Enter [Main] screen URL to Browser" library="SignIn_keyword">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>${SERVER}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20170721 08:37:46.010" level="INFO">Opening browser 'chrome' to base url 'http://dev-swf.goappable.com'</msg>
+<status status="PASS" endtime="20170721 08:37:57.121" starttime="20170721 08:37:46.009"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20170721 08:37:58.609" starttime="20170721 08:37:57.122"></status>
+</kw>
+<kw name="Set Selenium Speed" library="Selenium2Library">
+<doc>Sets the delay in seconds that is waited after each Selenium command.</doc>
+<arguments>
+<arg>${DELAY}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:37:58.611" starttime="20170721 08:37:58.610"></status>
+</kw>
+<kw name="Main Screen Should Be Open" library="SignIn_keyword">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNUP_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:37:59.640" starttime="20170721 08:37:58.612"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNIN_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:38:00.671" starttime="20170721 08:37:59.641"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SURVEYSAURUS_HEADER_LOGO}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:38:01.697" starttime="20170721 08:38:00.672"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>${SCREENSHOT}-MAIN_SCREEN.png</arg>
+</arguments>
+<msg timestamp="20170721 08:38:03.038" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-MAIN_SCREEN.png"&gt;&lt;img src="screenshot-MAIN_SCREEN.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170721 08:38:03.038" starttime="20170721 08:38:01.698"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:38:03.038" starttime="20170721 08:37:58.611"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:38:03.039" starttime="20170721 08:37:46.008"></status>
+</kw>
+<kw name="Main Screen Should Be Open" library="SignIn_keyword">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNUP_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:38:04.052" starttime="20170721 08:38:03.040"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNIN_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:38:05.064" starttime="20170721 08:38:04.053"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SURVEYSAURUS_HEADER_LOGO}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:38:06.076" starttime="20170721 08:38:05.064"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>${SCREENSHOT}-MAIN_SCREEN.png</arg>
+</arguments>
+<msg timestamp="20170721 08:38:07.298" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-MAIN_SCREEN.png"&gt;&lt;img src="screenshot-MAIN_SCREEN.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170721 08:38:07.298" starttime="20170721 08:38:06.077"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:38:07.298" starttime="20170721 08:38:03.039"></status>
+</kw>
+<kw name="Go to [Create an account] screen" library="SignUp_keyword">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${sign_up_menu}</arg>
+</arguments>
+<msg timestamp="20170721 08:38:07.300" level="INFO">Clicking element 'xpath=/html/body/header/div/div/div/div/div[2]/div/ul/li[1]/a'.</msg>
+<status status="PASS" endtime="20170721 08:38:09.397" starttime="20170721 08:38:07.299"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:38:09.398" starttime="20170721 08:38:07.299"></status>
+</kw>
+<kw name="Select [Individual] tab" library="SignUp_keyword">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${INDIVIDUAL_BUTTON}</arg>
+</arguments>
+<msg timestamp="20170721 08:38:09.399" level="INFO">Clicking element 'xpath=/html/body/section/div/div/div/ul/li[1]/a'.</msg>
+<status status="PASS" endtime="20170721 08:38:11.513" starttime="20170721 08:38:09.399"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:38:11.513" starttime="20170721 08:38:09.398"></status>
+</kw>
+<kw name="Input into [Last Name]" library="SignUp_keyword">
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>${INDIVIDUAL_LASTNAME_TEXTFIELD}</arg>
+<arg>${INDIVIDUAL_LASTNAME}</arg>
+</arguments>
+<msg timestamp="20170721 08:38:11.515" level="INFO">Typing text 'PHAM' into text field 'xpath=/html/body/section/div/div/form/div[2]/input'</msg>
+<status status="PASS" endtime="20170721 08:38:14.691" starttime="20170721 08:38:11.514"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:38:14.691" starttime="20170721 08:38:11.514"></status>
+</kw>
+<kw name="User can input into [Last Name] field successful" library="SignUp_keyword">
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>${SCREENSHOT}-SIGNUP_1_INDIVIDUAL_003.png</arg>
+</arguments>
+<msg timestamp="20170721 08:38:15.914" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-SIGNUP_1_INDIVIDUAL_003.png"&gt;&lt;img src="screenshot-SIGNUP_1_INDIVIDUAL_003.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170721 08:38:15.915" starttime="20170721 08:38:14.692"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:38:15.915" starttime="20170721 08:38:14.691"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>${SCREENSHOT}-SIGNUP_1_INDIVIDUAL_003.png</arg>
+</arguments>
+<msg timestamp="20170721 08:38:17.134" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-SIGNUP_1_INDIVIDUAL_003.png"&gt;&lt;img src="screenshot-SIGNUP_1_INDIVIDUAL_003.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170721 08:38:17.134" starttime="20170721 08:38:15.915"></status>
+</kw>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20170721 08:38:18.205" starttime="20170721 08:38:17.135"></status>
+</kw>
+<doc>User can input into [Last Name] field</doc>
+<status status="PASS" endtime="20170721 08:38:18.206" critical="yes" starttime="20170721 08:37:46.007"></status>
+</test>
+<test id="s1-t4" name="SIGN_UP_1_INDIVIDUAL_004">
+<kw name="Enter [Main] screen URL to Browser" library="SignIn_keyword">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>${SERVER}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20170721 08:38:18.210" level="INFO">Opening browser 'chrome' to base url 'http://dev-swf.goappable.com'</msg>
+<status status="PASS" endtime="20170721 08:38:29.647" starttime="20170721 08:38:18.209"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20170721 08:38:31.107" starttime="20170721 08:38:29.648"></status>
+</kw>
+<kw name="Set Selenium Speed" library="Selenium2Library">
+<doc>Sets the delay in seconds that is waited after each Selenium command.</doc>
+<arguments>
+<arg>${DELAY}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:38:31.108" starttime="20170721 08:38:31.108"></status>
+</kw>
+<kw name="Main Screen Should Be Open" library="SignIn_keyword">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNUP_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:38:32.136" starttime="20170721 08:38:31.109"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNIN_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:38:33.163" starttime="20170721 08:38:32.137"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SURVEYSAURUS_HEADER_LOGO}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:38:34.191" starttime="20170721 08:38:33.164"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>${SCREENSHOT}-MAIN_SCREEN.png</arg>
+</arguments>
+<msg timestamp="20170721 08:38:35.537" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-MAIN_SCREEN.png"&gt;&lt;img src="screenshot-MAIN_SCREEN.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170721 08:38:35.537" starttime="20170721 08:38:34.192"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:38:35.537" starttime="20170721 08:38:31.109"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:38:35.538" starttime="20170721 08:38:18.208"></status>
+</kw>
+<kw name="Main Screen Should Be Open" library="SignIn_keyword">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNUP_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:38:36.552" starttime="20170721 08:38:35.539"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNIN_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:38:37.567" starttime="20170721 08:38:36.553"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SURVEYSAURUS_HEADER_LOGO}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:38:38.580" starttime="20170721 08:38:37.567"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>${SCREENSHOT}-MAIN_SCREEN.png</arg>
+</arguments>
+<msg timestamp="20170721 08:38:39.797" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-MAIN_SCREEN.png"&gt;&lt;img src="screenshot-MAIN_SCREEN.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170721 08:38:39.797" starttime="20170721 08:38:38.580"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:38:39.797" starttime="20170721 08:38:35.538"></status>
+</kw>
+<kw name="Go to [Create an account] screen" library="SignUp_keyword">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${sign_up_menu}</arg>
+</arguments>
+<msg timestamp="20170721 08:38:39.799" level="INFO">Clicking element 'xpath=/html/body/header/div/div/div/div/div[2]/div/ul/li[1]/a'.</msg>
+<status status="PASS" endtime="20170721 08:38:41.901" starttime="20170721 08:38:39.798"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:38:41.901" starttime="20170721 08:38:39.798"></status>
+</kw>
+<kw name="Select [Individual] tab" library="SignUp_keyword">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${INDIVIDUAL_BUTTON}</arg>
+</arguments>
+<msg timestamp="20170721 08:38:41.902" level="INFO">Clicking element 'xpath=/html/body/section/div/div/div/ul/li[1]/a'.</msg>
+<status status="PASS" endtime="20170721 08:38:44.013" starttime="20170721 08:38:41.902"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:38:44.013" starttime="20170721 08:38:41.901"></status>
+</kw>
+<kw name="Input into [Email]" library="SignUp_keyword">
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>${INDIVIDUAL_EMAIL_TEXTFIELD}</arg>
+<arg>${INDIVIDUAL_EMAIL}</arg>
+</arguments>
+<msg timestamp="20170721 08:38:44.015" level="INFO">Typing text 'du9999@yopmail.com' into text field 'xpath=/html/body/section/div/div/form/div[3]/input'</msg>
+<status status="PASS" endtime="20170721 08:38:47.294" starttime="20170721 08:38:44.014"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:38:47.294" starttime="20170721 08:38:44.014"></status>
+</kw>
+<kw name="User can input into [Email] field successful" library="SignUp_keyword">
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>${SCREENSHOT}-SIGNUP_1_INDIVIDUAL_004.png</arg>
+</arguments>
+<msg timestamp="20170721 08:38:48.521" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-SIGNUP_1_INDIVIDUAL_004.png"&gt;&lt;img src="screenshot-SIGNUP_1_INDIVIDUAL_004.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170721 08:38:48.522" starttime="20170721 08:38:47.295"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:38:48.522" starttime="20170721 08:38:47.295"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>${SCREENSHOT}-SIGNUP_1_INDIVIDUAL_004.png</arg>
+</arguments>
+<msg timestamp="20170721 08:38:49.747" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-SIGNUP_1_INDIVIDUAL_004.png"&gt;&lt;img src="screenshot-SIGNUP_1_INDIVIDUAL_004.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170721 08:38:49.748" starttime="20170721 08:38:48.522"></status>
+</kw>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20170721 08:38:50.810" starttime="20170721 08:38:49.748"></status>
+</kw>
+<doc>User can input into [Email] field</doc>
+<status status="PASS" endtime="20170721 08:38:50.810" critical="yes" starttime="20170721 08:38:18.207"></status>
+</test>
+<test id="s1-t5" name="SIGN_UP_1_INDIVIDUAL_005">
+<kw name="Enter [Main] screen URL to Browser" library="SignIn_keyword">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>${SERVER}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20170721 08:38:50.815" level="INFO">Opening browser 'chrome' to base url 'http://dev-swf.goappable.com'</msg>
+<status status="PASS" endtime="20170721 08:39:01.791" starttime="20170721 08:38:50.814"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20170721 08:39:03.266" starttime="20170721 08:39:01.792"></status>
+</kw>
+<kw name="Set Selenium Speed" library="Selenium2Library">
+<doc>Sets the delay in seconds that is waited after each Selenium command.</doc>
+<arguments>
+<arg>${DELAY}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:39:03.267" starttime="20170721 08:39:03.266"></status>
+</kw>
+<kw name="Main Screen Should Be Open" library="SignIn_keyword">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNUP_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:39:04.296" starttime="20170721 08:39:03.268"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNIN_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:39:05.322" starttime="20170721 08:39:04.296"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SURVEYSAURUS_HEADER_LOGO}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:39:06.348" starttime="20170721 08:39:05.322"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>${SCREENSHOT}-MAIN_SCREEN.png</arg>
+</arguments>
+<msg timestamp="20170721 08:39:07.697" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-MAIN_SCREEN.png"&gt;&lt;img src="screenshot-MAIN_SCREEN.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170721 08:39:07.697" starttime="20170721 08:39:06.349"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:39:07.697" starttime="20170721 08:39:03.267"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:39:07.697" starttime="20170721 08:38:50.813"></status>
+</kw>
+<kw name="Main Screen Should Be Open" library="SignIn_keyword">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNUP_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:39:08.710" starttime="20170721 08:39:07.699"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNIN_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:39:09.723" starttime="20170721 08:39:08.710"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SURVEYSAURUS_HEADER_LOGO}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:39:10.738" starttime="20170721 08:39:09.724"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>${SCREENSHOT}-MAIN_SCREEN.png</arg>
+</arguments>
+<msg timestamp="20170721 08:39:11.960" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-MAIN_SCREEN.png"&gt;&lt;img src="screenshot-MAIN_SCREEN.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170721 08:39:11.960" starttime="20170721 08:39:10.738"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:39:11.960" starttime="20170721 08:39:07.698"></status>
+</kw>
+<kw name="Go to [Create an account] screen" library="SignUp_keyword">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${sign_up_menu}</arg>
+</arguments>
+<msg timestamp="20170721 08:39:11.962" level="INFO">Clicking element 'xpath=/html/body/header/div/div/div/div/div[2]/div/ul/li[1]/a'.</msg>
+<status status="PASS" endtime="20170721 08:39:14.062" starttime="20170721 08:39:11.962"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:39:14.063" starttime="20170721 08:39:11.961"></status>
+</kw>
+<kw name="Select [Individual] tab" library="SignUp_keyword">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${INDIVIDUAL_BUTTON}</arg>
+</arguments>
+<msg timestamp="20170721 08:39:14.064" level="INFO">Clicking element 'xpath=/html/body/section/div/div/div/ul/li[1]/a'.</msg>
+<status status="PASS" endtime="20170721 08:39:16.179" starttime="20170721 08:39:14.064"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:39:16.179" starttime="20170721 08:39:14.063"></status>
+</kw>
+<kw name="[SIGN UP] Input invalid format of email" library="SignUp_keyword">
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>${INDIVIDUAL_EMAIL_TEXTFIELD}</arg>
+<arg>${INVALID_EMAIL}</arg>
+</arguments>
+<msg timestamp="20170721 08:39:16.181" level="INFO">Typing text 'dupham goappable.com' into text field 'xpath=/html/body/section/div/div/form/div[3]/input'</msg>
+<status status="PASS" endtime="20170721 08:39:19.470" starttime="20170721 08:39:16.180"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:39:19.470" starttime="20170721 08:39:16.180"></status>
+</kw>
+<kw name="Click on individual [CREATE ACCOUNT] button" library="SignUp_keyword">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${INDIVIDUAL_CREATEACCOUNT_BUTTON}</arg>
+</arguments>
+<msg timestamp="20170721 08:39:19.472" level="INFO">Clicking element 'xpath=/html/body/section/div/div/form/div[7]/button'.</msg>
+<status status="PASS" endtime="20170721 08:39:21.592" starttime="20170721 08:39:19.472"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:39:21.592" starttime="20170721 08:39:19.471"></status>
+</kw>
+<kw name="[SIGN UP] Warning message Email is invalid is displayed until User input valid value" library="SignUp_keyword">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${SIGNUP_INVALID_EMAIL_WARMING}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:39:22.622" starttime="20170721 08:39:21.593"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:39:22.622" starttime="20170721 08:39:21.593"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>${SCREENSHOT}-SIGNUP_1_INDIVIDUAL_005.png</arg>
+</arguments>
+<msg timestamp="20170721 08:39:23.844" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-SIGNUP_1_INDIVIDUAL_005.png"&gt;&lt;img src="screenshot-SIGNUP_1_INDIVIDUAL_005.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170721 08:39:23.844" starttime="20170721 08:39:22.623"></status>
+</kw>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20170721 08:39:24.911" starttime="20170721 08:39:23.845"></status>
+</kw>
+<doc>Check format of Email, Warning message is displayed until User input valid value "Email is invalid"</doc>
+<status status="PASS" endtime="20170721 08:39:24.912" critical="yes" starttime="20170721 08:38:50.811"></status>
+</test>
+<test id="s1-t6" name="SIGN_UP_1_INDIVIDUAL_006">
+<kw name="Enter [Main] screen URL to Browser" library="SignIn_keyword">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>${SERVER}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20170721 08:39:24.916" level="INFO">Opening browser 'chrome' to base url 'http://dev-swf.goappable.com'</msg>
+<status status="PASS" endtime="20170721 08:39:36.671" starttime="20170721 08:39:24.915"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20170721 08:39:38.145" starttime="20170721 08:39:36.672"></status>
+</kw>
+<kw name="Set Selenium Speed" library="Selenium2Library">
+<doc>Sets the delay in seconds that is waited after each Selenium command.</doc>
+<arguments>
+<arg>${DELAY}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:39:38.146" starttime="20170721 08:39:38.145"></status>
+</kw>
+<kw name="Main Screen Should Be Open" library="SignIn_keyword">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNUP_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:39:39.171" starttime="20170721 08:39:38.147"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNIN_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:39:40.200" starttime="20170721 08:39:39.171"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SURVEYSAURUS_HEADER_LOGO}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:39:41.228" starttime="20170721 08:39:40.200"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>${SCREENSHOT}-MAIN_SCREEN.png</arg>
+</arguments>
+<msg timestamp="20170721 08:39:42.578" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-MAIN_SCREEN.png"&gt;&lt;img src="screenshot-MAIN_SCREEN.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170721 08:39:42.579" starttime="20170721 08:39:41.228"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:39:42.579" starttime="20170721 08:39:38.146"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:39:42.579" starttime="20170721 08:39:24.915"></status>
+</kw>
+<kw name="Main Screen Should Be Open" library="SignIn_keyword">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNUP_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:39:43.593" starttime="20170721 08:39:42.580"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNIN_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:39:44.607" starttime="20170721 08:39:43.593"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SURVEYSAURUS_HEADER_LOGO}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:39:45.621" starttime="20170721 08:39:44.607"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>${SCREENSHOT}-MAIN_SCREEN.png</arg>
+</arguments>
+<msg timestamp="20170721 08:39:46.843" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-MAIN_SCREEN.png"&gt;&lt;img src="screenshot-MAIN_SCREEN.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170721 08:39:46.844" starttime="20170721 08:39:45.622"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:39:46.844" starttime="20170721 08:39:42.580"></status>
+</kw>
+<kw name="Go to [Create an account] screen" library="SignUp_keyword">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${sign_up_menu}</arg>
+</arguments>
+<msg timestamp="20170721 08:39:46.845" level="INFO">Clicking element 'xpath=/html/body/header/div/div/div/div/div[2]/div/ul/li[1]/a'.</msg>
+<status status="PASS" endtime="20170721 08:39:48.942" starttime="20170721 08:39:46.845"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:39:48.942" starttime="20170721 08:39:46.844"></status>
+</kw>
+<kw name="Select [Individual] tab" library="SignUp_keyword">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${INDIVIDUAL_BUTTON}</arg>
+</arguments>
+<msg timestamp="20170721 08:39:48.944" level="INFO">Clicking element 'xpath=/html/body/section/div/div/div/ul/li[1]/a'.</msg>
+<status status="PASS" endtime="20170721 08:39:51.039" starttime="20170721 08:39:48.943"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:39:51.039" starttime="20170721 08:39:48.943"></status>
+</kw>
+<kw name="[SIGN UP] Input valid Password" library="SignUp_keyword">
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>${INDIVIDUAL_SIGNUP_PASSWORD_TEXTFIELD}</arg>
+<arg>${VALID_PASSWORD}</arg>
+</arguments>
+<msg timestamp="20170721 08:39:51.040" level="INFO">Typing text '23081991' into text field 'xpath=/html/body/section/div/div/form/div[4]/input'</msg>
+<status status="PASS" endtime="20170721 08:39:54.230" starttime="20170721 08:39:51.040"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:39:54.230" starttime="20170721 08:39:51.039"></status>
+</kw>
+<kw name="User can input into [Password] field successful" library="SignUp_keyword">
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>${SCREENSHOT}-SIGNUP_1_INDIVIDUAL_006.png</arg>
+</arguments>
+<msg timestamp="20170721 08:39:55.452" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-SIGNUP_1_INDIVIDUAL_006.png"&gt;&lt;img src="screenshot-SIGNUP_1_INDIVIDUAL_006.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170721 08:39:55.452" starttime="20170721 08:39:54.231"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:39:55.452" starttime="20170721 08:39:54.231"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>${SCREENSHOT}-SIGNUP_1_INDIVIDUAL_006.png</arg>
+</arguments>
+<msg timestamp="20170721 08:39:56.675" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-SIGNUP_1_INDIVIDUAL_006.png"&gt;&lt;img src="screenshot-SIGNUP_1_INDIVIDUAL_006.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170721 08:39:56.676" starttime="20170721 08:39:55.453"></status>
+</kw>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20170721 08:39:57.737" starttime="20170721 08:39:56.676"></status>
+</kw>
+<doc>User can input into [Password] field and password is encrypted form when entered</doc>
+<status status="PASS" endtime="20170721 08:39:57.738" critical="yes" starttime="20170721 08:39:24.913"></status>
+</test>
+<test id="s1-t7" name="SIGN_UP_1_INDIVIDUAL_007">
+<kw name="Enter [Main] screen URL to Browser" library="SignIn_keyword">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>${SERVER}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20170721 08:39:57.742" level="INFO">Opening browser 'chrome' to base url 'http://dev-swf.goappable.com'</msg>
+<status status="PASS" endtime="20170721 08:40:08.878" starttime="20170721 08:39:57.741"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20170721 08:40:10.368" starttime="20170721 08:40:08.879"></status>
+</kw>
+<kw name="Set Selenium Speed" library="Selenium2Library">
+<doc>Sets the delay in seconds that is waited after each Selenium command.</doc>
+<arguments>
+<arg>${DELAY}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:40:10.369" starttime="20170721 08:40:10.368"></status>
+</kw>
+<kw name="Main Screen Should Be Open" library="SignIn_keyword">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNUP_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:40:11.400" starttime="20170721 08:40:10.370"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNIN_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:40:12.427" starttime="20170721 08:40:11.400"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SURVEYSAURUS_HEADER_LOGO}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:40:13.455" starttime="20170721 08:40:12.427"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>${SCREENSHOT}-MAIN_SCREEN.png</arg>
+</arguments>
+<msg timestamp="20170721 08:40:14.791" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-MAIN_SCREEN.png"&gt;&lt;img src="screenshot-MAIN_SCREEN.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170721 08:40:14.792" starttime="20170721 08:40:13.455"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:40:14.792" starttime="20170721 08:40:10.369"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:40:14.792" starttime="20170721 08:39:57.741"></status>
+</kw>
+<kw name="Main Screen Should Be Open" library="SignIn_keyword">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNUP_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:40:15.809" starttime="20170721 08:40:14.793"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNIN_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:40:16.825" starttime="20170721 08:40:15.809"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SURVEYSAURUS_HEADER_LOGO}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:40:17.838" starttime="20170721 08:40:16.826"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>${SCREENSHOT}-MAIN_SCREEN.png</arg>
+</arguments>
+<msg timestamp="20170721 08:40:19.059" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-MAIN_SCREEN.png"&gt;&lt;img src="screenshot-MAIN_SCREEN.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170721 08:40:19.059" starttime="20170721 08:40:17.839"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:40:19.060" starttime="20170721 08:40:14.793"></status>
+</kw>
+<kw name="Go to [Create an account] screen" library="SignUp_keyword">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${sign_up_menu}</arg>
+</arguments>
+<msg timestamp="20170721 08:40:19.061" level="INFO">Clicking element 'xpath=/html/body/header/div/div/div/div/div[2]/div/ul/li[1]/a'.</msg>
+<status status="PASS" endtime="20170721 08:40:21.162" starttime="20170721 08:40:19.061"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:40:21.162" starttime="20170721 08:40:19.060"></status>
+</kw>
+<kw name="Select [Individual] tab" library="SignUp_keyword">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${INDIVIDUAL_BUTTON}</arg>
+</arguments>
+<msg timestamp="20170721 08:40:21.163" level="INFO">Clicking element 'xpath=/html/body/section/div/div/div/ul/li[1]/a'.</msg>
+<status status="PASS" endtime="20170721 08:40:23.282" starttime="20170721 08:40:21.163"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:40:23.282" starttime="20170721 08:40:21.163"></status>
+</kw>
+<kw name="[SIGN UP] Input value for [Password] field less than 6 characters long" library="SignUp_keyword">
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>${INDIVIDUAL_SIGNUP_PASSWORD_TEXTFIELD}</arg>
+<arg>${PASSWORD_LESS_THAN_6_CHAR}</arg>
+</arguments>
+<msg timestamp="20170721 08:40:23.284" level="INFO">Typing text '12345' into text field 'xpath=/html/body/section/div/div/form/div[4]/input'</msg>
+<status status="PASS" endtime="20170721 08:40:26.446" starttime="20170721 08:40:23.283"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:40:26.447" starttime="20170721 08:40:23.282"></status>
+</kw>
+<kw name="[SIGN UP] Input value for [Confirm Password] field less than 6 characters long" library="SignUp_keyword">
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>${INDIVIDUAL_SIGNUP_CONFIRM_PASSWORD_TEXTFIELD}</arg>
+<arg>${PASSWORD_LESS_THAN_6_CHAR}</arg>
+</arguments>
+<msg timestamp="20170721 08:40:26.449" level="INFO">Typing text '12345' into text field 'xpath=/html/body/section/div/div/form/div[5]/input'</msg>
+<status status="PASS" endtime="20170721 08:40:29.594" starttime="20170721 08:40:26.449"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:40:29.594" starttime="20170721 08:40:26.448"></status>
+</kw>
+<kw name="Click on individual [CREATE ACCOUNT] button" library="SignUp_keyword">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${INDIVIDUAL_CREATEACCOUNT_BUTTON}</arg>
+</arguments>
+<msg timestamp="20170721 08:40:29.597" level="INFO">Clicking element 'xpath=/html/body/section/div/div/form/div[7]/button'.</msg>
+<status status="PASS" endtime="20170721 08:40:31.714" starttime="20170721 08:40:29.596"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:40:31.715" starttime="20170721 08:40:29.595"></status>
+</kw>
+<kw name="[SIGN UP] Warning message is displayed until User input more than 6 characters long &quot;Password must be at least 6 character&quot;" library="SignUp_keyword">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${SIGNUP_INDIVIDUAL_PASSWORD_AT_LEAST_6_CHAR}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:40:32.742" starttime="20170721 08:40:31.716"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${SIGNUP_INDIVIDUAL_CONFIRM_PASSWORD_AT_LEAST_6_CHAR}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:40:33.772" starttime="20170721 08:40:32.743"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:40:33.772" starttime="20170721 08:40:31.715"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>${SCREENSHOT}-SIGNUP_1_INDIVIDUAL_007.png</arg>
+</arguments>
+<msg timestamp="20170721 08:40:34.994" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-SIGNUP_1_INDIVIDUAL_007.png"&gt;&lt;img src="screenshot-SIGNUP_1_INDIVIDUAL_007.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170721 08:40:34.995" starttime="20170721 08:40:33.773"></status>
+</kw>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20170721 08:40:36.057" starttime="20170721 08:40:34.995"></status>
+</kw>
+<doc>Password and Confirm Password have to be at least 6 characters long</doc>
+<status status="PASS" endtime="20170721 08:40:36.058" critical="yes" starttime="20170721 08:39:57.739"></status>
+</test>
+<test id="s1-t8" name="SIGN_UP_1_INDIVIDUAL_008">
+<kw name="Enter [Main] screen URL to Browser" library="SignIn_keyword">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>${SERVER}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20170721 08:40:36.062" level="INFO">Opening browser 'chrome' to base url 'http://dev-swf.goappable.com'</msg>
+<status status="PASS" endtime="20170721 08:40:47.722" starttime="20170721 08:40:36.061"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20170721 08:40:49.195" starttime="20170721 08:40:47.722"></status>
+</kw>
+<kw name="Set Selenium Speed" library="Selenium2Library">
+<doc>Sets the delay in seconds that is waited after each Selenium command.</doc>
+<arguments>
+<arg>${DELAY}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:40:49.196" starttime="20170721 08:40:49.196"></status>
+</kw>
+<kw name="Main Screen Should Be Open" library="SignIn_keyword">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNUP_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:40:50.226" starttime="20170721 08:40:49.197"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNIN_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:40:51.255" starttime="20170721 08:40:50.227"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SURVEYSAURUS_HEADER_LOGO}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:40:52.281" starttime="20170721 08:40:51.256"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>${SCREENSHOT}-MAIN_SCREEN.png</arg>
+</arguments>
+<msg timestamp="20170721 08:40:53.634" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-MAIN_SCREEN.png"&gt;&lt;img src="screenshot-MAIN_SCREEN.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170721 08:40:53.634" starttime="20170721 08:40:52.281"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:40:53.634" starttime="20170721 08:40:49.197"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:40:53.634" starttime="20170721 08:40:36.061"></status>
+</kw>
+<kw name="Main Screen Should Be Open" library="SignIn_keyword">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNUP_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:40:54.652" starttime="20170721 08:40:53.635"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNIN_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:40:55.663" starttime="20170721 08:40:54.652"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SURVEYSAURUS_HEADER_LOGO}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:40:56.676" starttime="20170721 08:40:55.663"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>${SCREENSHOT}-MAIN_SCREEN.png</arg>
+</arguments>
+<msg timestamp="20170721 08:40:57.894" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-MAIN_SCREEN.png"&gt;&lt;img src="screenshot-MAIN_SCREEN.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170721 08:40:57.894" starttime="20170721 08:40:56.677"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:40:57.894" starttime="20170721 08:40:53.635"></status>
+</kw>
+<kw name="Go to [Create an account] screen" library="SignUp_keyword">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${sign_up_menu}</arg>
+</arguments>
+<msg timestamp="20170721 08:40:57.896" level="INFO">Clicking element 'xpath=/html/body/header/div/div/div/div/div[2]/div/ul/li[1]/a'.</msg>
+<status status="PASS" endtime="20170721 08:40:59.993" starttime="20170721 08:40:57.895"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:40:59.993" starttime="20170721 08:40:57.895"></status>
+</kw>
+<kw name="Select [Individual] tab" library="SignUp_keyword">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${INDIVIDUAL_BUTTON}</arg>
+</arguments>
+<msg timestamp="20170721 08:40:59.995" level="INFO">Clicking element 'xpath=/html/body/section/div/div/div/ul/li[1]/a'.</msg>
+<status status="PASS" endtime="20170721 08:41:02.110" starttime="20170721 08:40:59.994"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:41:02.110" starttime="20170721 08:40:59.994"></status>
+</kw>
+<kw name="[SIGN UP] Input password and confirmation do not match" library="SignUp_keyword">
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>${INDIVIDUAL_SIGNUP_PASSWORD_TEXTFIELD}</arg>
+<arg>${VALID_PASSWORD}</arg>
+</arguments>
+<msg timestamp="20170721 08:41:02.112" level="INFO">Typing text '23081991' into text field 'xpath=/html/body/section/div/div/form/div[4]/input'</msg>
+<status status="PASS" endtime="20170721 08:41:05.298" starttime="20170721 08:41:02.111"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>${INDIVIDUAL_SIGNUP_CONFIRM_PASSWORD_TEXTFIELD}</arg>
+<arg>${INVALID_PASSWORD}</arg>
+</arguments>
+<msg timestamp="20170721 08:41:05.299" level="INFO">Typing text 'invalidpassword' into text field 'xpath=/html/body/section/div/div/form/div[5]/input'</msg>
+<status status="PASS" endtime="20170721 08:41:08.509" starttime="20170721 08:41:05.298"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:41:08.509" starttime="20170721 08:41:02.110"></status>
+</kw>
+<kw name="Click on individual [CREATE ACCOUNT] button" library="SignUp_keyword">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${INDIVIDUAL_CREATEACCOUNT_BUTTON}</arg>
+</arguments>
+<msg timestamp="20170721 08:41:08.511" level="INFO">Clicking element 'xpath=/html/body/section/div/div/form/div[7]/button'.</msg>
+<status status="PASS" endtime="20170721 08:41:10.619" starttime="20170721 08:41:08.511"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:41:10.619" starttime="20170721 08:41:08.510"></status>
+</kw>
+<kw name="[SIGN UP} Warning message is displayed until User input password and confirmation match &quot;Password does not match&quot;" library="SignUp_keyword">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${SIGNUP_INDIVIDUAL_PASSWORD_DOES_NOT_MATCH}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:41:11.650" starttime="20170721 08:41:10.620"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:41:11.650" starttime="20170721 08:41:10.620"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>${SCREENSHOT}-SIGNUP_1_INDIVIDUAL_008.png</arg>
+</arguments>
+<msg timestamp="20170721 08:41:12.872" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-SIGNUP_1_INDIVIDUAL_008.png"&gt;&lt;img src="screenshot-SIGNUP_1_INDIVIDUAL_008.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170721 08:41:12.873" starttime="20170721 08:41:11.650"></status>
+</kw>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20170721 08:41:13.943" starttime="20170721 08:41:12.873"></status>
+</kw>
+<doc>Check warning message is displayed if password and confirmation do not match</doc>
+<status status="PASS" endtime="20170721 08:41:13.944" critical="yes" starttime="20170721 08:40:36.059"></status>
+</test>
+<test id="s1-t9" name="SIGN_UP_1_INDIVIDUAL_009">
+<kw name="Enter [Main] screen URL to Browser" library="SignIn_keyword">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>${SERVER}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20170721 08:41:13.948" level="INFO">Opening browser 'chrome' to base url 'http://dev-swf.goappable.com'</msg>
+<status status="PASS" endtime="20170721 08:41:25.043" starttime="20170721 08:41:13.948"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20170721 08:41:26.531" starttime="20170721 08:41:25.043"></status>
+</kw>
+<kw name="Set Selenium Speed" library="Selenium2Library">
+<doc>Sets the delay in seconds that is waited after each Selenium command.</doc>
+<arguments>
+<arg>${DELAY}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:41:26.532" starttime="20170721 08:41:26.531"></status>
+</kw>
+<kw name="Main Screen Should Be Open" library="SignIn_keyword">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNUP_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:41:27.561" starttime="20170721 08:41:26.533"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNIN_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:41:28.592" starttime="20170721 08:41:27.562"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SURVEYSAURUS_HEADER_LOGO}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:41:29.621" starttime="20170721 08:41:28.593"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>${SCREENSHOT}-MAIN_SCREEN.png</arg>
+</arguments>
+<msg timestamp="20170721 08:41:30.985" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-MAIN_SCREEN.png"&gt;&lt;img src="screenshot-MAIN_SCREEN.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170721 08:41:30.985" starttime="20170721 08:41:29.622"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:41:30.986" starttime="20170721 08:41:26.532"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:41:30.986" starttime="20170721 08:41:13.947"></status>
+</kw>
+<kw name="Main Screen Should Be Open" library="SignIn_keyword">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNUP_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:41:31.996" starttime="20170721 08:41:30.987"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNIN_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:41:33.009" starttime="20170721 08:41:31.996"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SURVEYSAURUS_HEADER_LOGO}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:41:34.021" starttime="20170721 08:41:33.009"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>${SCREENSHOT}-MAIN_SCREEN.png</arg>
+</arguments>
+<msg timestamp="20170721 08:41:35.242" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-MAIN_SCREEN.png"&gt;&lt;img src="screenshot-MAIN_SCREEN.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170721 08:41:35.243" starttime="20170721 08:41:34.022"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:41:35.243" starttime="20170721 08:41:30.986"></status>
+</kw>
+<kw name="Go to [Create an account] screen" library="SignUp_keyword">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${sign_up_menu}</arg>
+</arguments>
+<msg timestamp="20170721 08:41:35.245" level="INFO">Clicking element 'xpath=/html/body/header/div/div/div/div/div[2]/div/ul/li[1]/a'.</msg>
+<status status="PASS" endtime="20170721 08:41:37.345" starttime="20170721 08:41:35.245"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:41:37.345" starttime="20170721 08:41:35.244"></status>
+</kw>
+<kw name="Select [Individual] tab" library="SignUp_keyword">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${INDIVIDUAL_BUTTON}</arg>
+</arguments>
+<msg timestamp="20170721 08:41:37.347" level="INFO">Clicking element 'xpath=/html/body/section/div/div/div/ul/li[1]/a'.</msg>
+<status status="PASS" endtime="20170721 08:41:39.459" starttime="20170721 08:41:37.346"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:41:39.459" starttime="20170721 08:41:37.346"></status>
+</kw>
+<kw name="[SIGN UP] Leave blank any required fields" library="SignUp_keyword">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${INDIVIDUAL_FIRSTNAME_TEXTFIELD}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:41:40.489" starttime="20170721 08:41:39.460"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:41:40.490" starttime="20170721 08:41:39.459"></status>
+</kw>
+<kw name="Click on individual [CREATE ACCOUNT] button" library="SignUp_keyword">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${INDIVIDUAL_CREATEACCOUNT_BUTTON}</arg>
+</arguments>
+<msg timestamp="20170721 08:41:40.491" level="INFO">Clicking element 'xpath=/html/body/section/div/div/form/div[7]/button'.</msg>
+<status status="PASS" endtime="20170721 08:41:42.606" starttime="20170721 08:41:40.491"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:41:42.607" starttime="20170721 08:41:40.490"></status>
+</kw>
+<kw name="[SIGN UP} Warning message is displayed when user leaves blank any require fields" library="SignUp_keyword">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${SIGNUP_INDIVIDUAL_FIRSTNAME_BLANK}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:41:43.637" starttime="20170721 08:41:42.608"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${SIGNUP_INDIVIDUAL_LASTNAME_BLANK}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:41:44.664" starttime="20170721 08:41:43.637"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${SIGNUP_INDIVIDUAL_EMAIL_BLANK}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:41:45.692" starttime="20170721 08:41:44.664"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${SIGNUP_INDIVIDUAL_PASSWORD_BLANK}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:41:46.723" starttime="20170721 08:41:45.692"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${SIGNUP_INDIVIDUAL_CONFIRM_PASSWORD_BLANK}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:41:47.747" starttime="20170721 08:41:46.723"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:41:47.747" starttime="20170721 08:41:42.607"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>${SCREENSHOT}-SIGNUP_1_INDIVIDUAL_009.png</arg>
+</arguments>
+<msg timestamp="20170721 08:41:48.993" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-SIGNUP_1_INDIVIDUAL_009.png"&gt;&lt;img src="screenshot-SIGNUP_1_INDIVIDUAL_009.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170721 08:41:48.993" starttime="20170721 08:41:47.748"></status>
+</kw>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20170721 08:41:50.059" starttime="20170721 08:41:48.994"></status>
+</kw>
+<doc>Check warning message is displayed if User leaves blank any required fields</doc>
+<status status="PASS" endtime="20170721 08:41:50.059" critical="yes" starttime="20170721 08:41:13.945"></status>
+</test>
+<test id="s1-t10" name="SIGN_UP_1_INDIVIDUAL_010">
+<kw name="Enter [Main] screen URL to Browser" library="SignIn_keyword">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>${SERVER}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20170721 08:41:50.063" level="INFO">Opening browser 'chrome' to base url 'http://dev-swf.goappable.com'</msg>
+<status status="PASS" endtime="20170721 08:42:00.980" starttime="20170721 08:41:50.063"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20170721 08:42:02.445" starttime="20170721 08:42:00.980"></status>
+</kw>
+<kw name="Set Selenium Speed" library="Selenium2Library">
+<doc>Sets the delay in seconds that is waited after each Selenium command.</doc>
+<arguments>
+<arg>${DELAY}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:42:02.446" starttime="20170721 08:42:02.446"></status>
+</kw>
+<kw name="Main Screen Should Be Open" library="SignIn_keyword">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNUP_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:42:03.475" starttime="20170721 08:42:02.447"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNIN_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:42:04.503" starttime="20170721 08:42:03.475"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SURVEYSAURUS_HEADER_LOGO}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:42:05.533" starttime="20170721 08:42:04.504"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>${SCREENSHOT}-MAIN_SCREEN.png</arg>
+</arguments>
+<msg timestamp="20170721 08:42:06.885" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-MAIN_SCREEN.png"&gt;&lt;img src="screenshot-MAIN_SCREEN.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170721 08:42:06.886" starttime="20170721 08:42:05.533"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:42:06.886" starttime="20170721 08:42:02.447"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:42:06.886" starttime="20170721 08:41:50.062"></status>
+</kw>
+<kw name="Main Screen Should Be Open" library="SignIn_keyword">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNUP_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:42:07.899" starttime="20170721 08:42:06.887"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNIN_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:42:08.913" starttime="20170721 08:42:07.899"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SURVEYSAURUS_HEADER_LOGO}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:42:09.924" starttime="20170721 08:42:08.913"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>${SCREENSHOT}-MAIN_SCREEN.png</arg>
+</arguments>
+<msg timestamp="20170721 08:42:11.142" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-MAIN_SCREEN.png"&gt;&lt;img src="screenshot-MAIN_SCREEN.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170721 08:42:11.142" starttime="20170721 08:42:09.925"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:42:11.142" starttime="20170721 08:42:06.887"></status>
+</kw>
+<kw name="Go to [Create an account] screen" library="SignUp_keyword">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${sign_up_menu}</arg>
+</arguments>
+<msg timestamp="20170721 08:42:11.144" level="INFO">Clicking element 'xpath=/html/body/header/div/div/div/div/div[2]/div/ul/li[1]/a'.</msg>
+<status status="PASS" endtime="20170721 08:42:13.241" starttime="20170721 08:42:11.143"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:42:13.242" starttime="20170721 08:42:11.143"></status>
+</kw>
+<kw name="Select [Individual] tab" library="SignUp_keyword">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${INDIVIDUAL_BUTTON}</arg>
+</arguments>
+<msg timestamp="20170721 08:42:13.243" level="INFO">Clicking element 'xpath=/html/body/section/div/div/div/ul/li[1]/a'.</msg>
+<status status="PASS" endtime="20170721 08:42:15.365" starttime="20170721 08:42:13.243"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:42:15.365" starttime="20170721 08:42:13.242"></status>
+</kw>
+<kw name="[SIGN UP] Check into &quot;I agree to Survey Saurus Terms of Use and Policy&quot; checkbox" library="SignUp_keyword">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${CHECKBOX}</arg>
+</arguments>
+<msg timestamp="20170721 08:42:15.366" level="INFO">Clicking element 'xpath=//*[@id="checkbox1"]'.</msg>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20170721 08:42:17.633" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170721 08:42:17.633" starttime="20170721 08:42:16.418"></status>
+</kw>
+<msg timestamp="20170721 08:42:17.641" level="FAIL">ElementNotVisibleException: Message: element not visible
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262),platform=Mac OS X 10.12.6 x86_64)
+</msg>
+<status status="FAIL" endtime="20170721 08:42:17.642" starttime="20170721 08:42:15.366"></status>
+</kw>
+<status status="FAIL" endtime="20170721 08:42:17.642" starttime="20170721 08:42:15.365"></status>
+</kw>
+<doc>User can check into "I agree to Survey Saurus Terms of Use and Policy"</doc>
+<status status="FAIL" endtime="20170721 08:42:17.642" critical="yes" starttime="20170721 08:41:50.061">ElementNotVisibleException: Message: element not visible
+  (Session info: chrome=59.0.3071.115)
+  (Driver info: chromedriver=2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262),platform=Mac OS X 10.12.6 x86_64)
+</status>
+</test>
+<test id="s1-t11" name="SIGN_UP_1_INDIVIDUAL_011">
+<kw name="Enter [Main] screen URL to Browser" library="SignIn_keyword">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>${SERVER}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20170721 08:42:17.646" level="INFO">Opening browser 'chrome' to base url 'http://dev-swf.goappable.com'</msg>
+<status status="PASS" endtime="20170721 08:42:28.949" starttime="20170721 08:42:17.645"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20170721 08:42:30.408" starttime="20170721 08:42:28.950"></status>
+</kw>
+<kw name="Set Selenium Speed" library="Selenium2Library">
+<doc>Sets the delay in seconds that is waited after each Selenium command.</doc>
+<arguments>
+<arg>${DELAY}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:42:30.409" starttime="20170721 08:42:30.408"></status>
+</kw>
+<kw name="Main Screen Should Be Open" library="SignIn_keyword">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNUP_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:42:31.441" starttime="20170721 08:42:30.410"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNIN_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:42:32.471" starttime="20170721 08:42:31.441"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SURVEYSAURUS_HEADER_LOGO}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:42:33.501" starttime="20170721 08:42:32.471"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>${SCREENSHOT}-MAIN_SCREEN.png</arg>
+</arguments>
+<msg timestamp="20170721 08:42:34.824" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-MAIN_SCREEN.png"&gt;&lt;img src="screenshot-MAIN_SCREEN.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170721 08:42:34.824" starttime="20170721 08:42:33.501"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:42:34.824" starttime="20170721 08:42:30.409"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:42:34.825" starttime="20170721 08:42:17.645"></status>
+</kw>
+<kw name="Main Screen Should Be Open" library="SignIn_keyword">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNUP_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:42:35.840" starttime="20170721 08:42:34.825"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNIN_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:42:36.856" starttime="20170721 08:42:35.840"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SURVEYSAURUS_HEADER_LOGO}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:42:37.872" starttime="20170721 08:42:36.856"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>${SCREENSHOT}-MAIN_SCREEN.png</arg>
+</arguments>
+<msg timestamp="20170721 08:42:39.087" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-MAIN_SCREEN.png"&gt;&lt;img src="screenshot-MAIN_SCREEN.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170721 08:42:39.087" starttime="20170721 08:42:37.873"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:42:39.088" starttime="20170721 08:42:34.825"></status>
+</kw>
+<kw name="Go to [Create an account] screen" library="SignUp_keyword">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${sign_up_menu}</arg>
+</arguments>
+<msg timestamp="20170721 08:42:39.089" level="INFO">Clicking element 'xpath=/html/body/header/div/div/div/div/div[2]/div/ul/li[1]/a'.</msg>
+<status status="PASS" endtime="20170721 08:42:41.195" starttime="20170721 08:42:39.089"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:42:41.195" starttime="20170721 08:42:39.088"></status>
+</kw>
+<kw name="Select [Individual] tab" library="SignUp_keyword">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${INDIVIDUAL_BUTTON}</arg>
+</arguments>
+<msg timestamp="20170721 08:42:41.196" level="INFO">Clicking element 'xpath=/html/body/section/div/div/div/ul/li[1]/a'.</msg>
+<status status="PASS" endtime="20170721 08:42:43.315" starttime="20170721 08:42:41.196"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:42:43.315" starttime="20170721 08:42:41.195"></status>
+</kw>
+<kw name="[SIGN UP] Input valid value into other fields" library="SignUp_keyword">
+<kw name="Input into [First Name]" library="SignUp_keyword">
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>${INDIVIDUAL_FIRSTNAME_TEXTFIELD}</arg>
+<arg>${INDIVIDUAL_FIRSTNAME}</arg>
+</arguments>
+<msg timestamp="20170721 08:42:43.317" level="INFO">Typing text 'DU' into text field 'xpath=/html/body/section/div/div/form/div[1]/input'</msg>
+<status status="PASS" endtime="20170721 08:42:46.485" starttime="20170721 08:42:43.317"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:42:46.486" starttime="20170721 08:42:43.316"></status>
+</kw>
+<kw name="Input into [Last Name]" library="SignUp_keyword">
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>${INDIVIDUAL_LASTNAME_TEXTFIELD}</arg>
+<arg>${INDIVIDUAL_LASTNAME}</arg>
+</arguments>
+<msg timestamp="20170721 08:42:46.488" level="INFO">Typing text 'PHAM' into text field 'xpath=/html/body/section/div/div/form/div[2]/input'</msg>
+<status status="PASS" endtime="20170721 08:42:49.632" starttime="20170721 08:42:46.487"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:42:49.632" starttime="20170721 08:42:46.486"></status>
+</kw>
+<kw name="Input into [Email]" library="SignUp_keyword">
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>${INDIVIDUAL_EMAIL_TEXTFIELD}</arg>
+<arg>${INDIVIDUAL_EMAIL}</arg>
+</arguments>
+<msg timestamp="20170721 08:42:49.634" level="INFO">Typing text 'du9999@yopmail.com' into text field 'xpath=/html/body/section/div/div/form/div[3]/input'</msg>
+<status status="PASS" endtime="20170721 08:42:52.892" starttime="20170721 08:42:49.633"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:42:52.892" starttime="20170721 08:42:49.632"></status>
+</kw>
+<kw name="[SIGN UP] Input valid Password" library="SignUp_keyword">
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>${INDIVIDUAL_SIGNUP_PASSWORD_TEXTFIELD}</arg>
+<arg>${VALID_PASSWORD}</arg>
+</arguments>
+<msg timestamp="20170721 08:42:52.894" level="INFO">Typing text '23081991' into text field 'xpath=/html/body/section/div/div/form/div[4]/input'</msg>
+<status status="PASS" endtime="20170721 08:42:56.069" starttime="20170721 08:42:52.893"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:42:56.070" starttime="20170721 08:42:52.892"></status>
+</kw>
+<kw name="[SIGN UP] Input valid Confirm Password Password" library="SignUp_keyword">
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>${INDIVIDUAL_SIGNUP_CONFIRM_PASSWORD_TEXTFIELD}</arg>
+<arg>${VALID_PASSWORD}</arg>
+</arguments>
+<msg timestamp="20170721 08:42:56.072" level="INFO">Typing text '23081991' into text field 'xpath=/html/body/section/div/div/form/div[5]/input'</msg>
+<status status="PASS" endtime="20170721 08:42:59.245" starttime="20170721 08:42:56.071"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:42:59.245" starttime="20170721 08:42:56.070"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:42:59.245" starttime="20170721 08:42:43.315"></status>
+</kw>
+<kw name="[SIGN UP] Input existed email into [Email] field" library="SignUp_keyword">
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>${INDIVIDUAL_EMAIL_TEXTFIELD}</arg>
+<arg>${INDIVIDUAL_EMAIL_EXISTED}</arg>
+</arguments>
+<msg timestamp="20170721 08:42:59.247" level="INFO">Typing text 'dupham@goappable.com' into text field 'xpath=/html/body/section/div/div/form/div[3]/input'</msg>
+<status status="PASS" endtime="20170721 08:43:02.458" starttime="20170721 08:42:59.246"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:43:02.459" starttime="20170721 08:42:59.246"></status>
+</kw>
+<kw name="Click on individual [CREATE ACCOUNT] button" library="SignUp_keyword">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${INDIVIDUAL_CREATEACCOUNT_BUTTON}</arg>
+</arguments>
+<msg timestamp="20170721 08:43:02.461" level="INFO">Clicking element 'xpath=/html/body/section/div/div/form/div[7]/button'.</msg>
+<status status="PASS" endtime="20170721 08:43:04.595" starttime="20170721 08:43:02.460"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:43:04.596" starttime="20170721 08:43:02.460"></status>
+</kw>
+<kw name="[SIGN UP} Warning message is displayed &quot;Account already existed&quot;" library="SignUp_keyword">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${SIGNUP_ACCOUNT_ALREADY_EXISTED_WARMING}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:43:05.623" starttime="20170721 08:43:04.597"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:43:05.623" starttime="20170721 08:43:04.596"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>${SCREENSHOT}-SIGNUP_1_INDIVIDUAL_011.png</arg>
+</arguments>
+<msg timestamp="20170721 08:43:06.844" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-SIGNUP_1_INDIVIDUAL_011.png"&gt;&lt;img src="screenshot-SIGNUP_1_INDIVIDUAL_011.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170721 08:43:06.845" starttime="20170721 08:43:05.624"></status>
+</kw>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20170721 08:43:07.914" starttime="20170721 08:43:06.845"></status>
+</kw>
+<doc>Check warning message is displayed if User input existed email</doc>
+<status status="PASS" endtime="20170721 08:43:07.914" critical="yes" starttime="20170721 08:42:17.643"></status>
+</test>
+<test id="s1-t12" name="SIGN_UP_1_INDIVIDUAL_012">
+<kw name="Enter [Main] screen URL to Browser" library="SignIn_keyword">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to given URL.</doc>
+<arguments>
+<arg>${SERVER}</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20170721 08:43:07.918" level="INFO">Opening browser 'chrome' to base url 'http://dev-swf.goappable.com'</msg>
+<status status="PASS" endtime="20170721 08:43:19.456" starttime="20170721 08:43:07.917"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20170721 08:43:20.923" starttime="20170721 08:43:19.457"></status>
+</kw>
+<kw name="Set Selenium Speed" library="Selenium2Library">
+<doc>Sets the delay in seconds that is waited after each Selenium command.</doc>
+<arguments>
+<arg>${DELAY}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:43:20.924" starttime="20170721 08:43:20.923"></status>
+</kw>
+<kw name="Main Screen Should Be Open" library="SignIn_keyword">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNUP_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:43:21.956" starttime="20170721 08:43:20.925"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNIN_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:43:22.983" starttime="20170721 08:43:21.956"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SURVEYSAURUS_HEADER_LOGO}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:43:24.011" starttime="20170721 08:43:22.984"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>${SCREENSHOT}-MAIN_SCREEN.png</arg>
+</arguments>
+<msg timestamp="20170721 08:43:25.331" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-MAIN_SCREEN.png"&gt;&lt;img src="screenshot-MAIN_SCREEN.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170721 08:43:25.332" starttime="20170721 08:43:24.012"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:43:25.332" starttime="20170721 08:43:20.924"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:43:25.332" starttime="20170721 08:43:07.917"></status>
+</kw>
+<kw name="Main Screen Should Be Open" library="SignIn_keyword">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNUP_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:43:26.349" starttime="20170721 08:43:25.333"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SignIn_PAGE_SIGNIN_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:43:27.365" starttime="20170721 08:43:26.349"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SURVEYSAURUS_HEADER_LOGO}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:43:28.382" starttime="20170721 08:43:27.365"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>${SCREENSHOT}-MAIN_SCREEN.png</arg>
+</arguments>
+<msg timestamp="20170721 08:43:29.598" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-MAIN_SCREEN.png"&gt;&lt;img src="screenshot-MAIN_SCREEN.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170721 08:43:29.599" starttime="20170721 08:43:28.382"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:43:29.599" starttime="20170721 08:43:25.333"></status>
+</kw>
+<kw name="Go to [Create an account] screen" library="SignUp_keyword">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${sign_up_menu}</arg>
+</arguments>
+<msg timestamp="20170721 08:43:29.600" level="INFO">Clicking element 'xpath=/html/body/header/div/div/div/div/div[2]/div/ul/li[1]/a'.</msg>
+<status status="PASS" endtime="20170721 08:43:31.705" starttime="20170721 08:43:29.600"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:43:31.705" starttime="20170721 08:43:29.599"></status>
+</kw>
+<kw name="Select [Individual] tab" library="SignUp_keyword">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${INDIVIDUAL_BUTTON}</arg>
+</arguments>
+<msg timestamp="20170721 08:43:31.707" level="INFO">Clicking element 'xpath=/html/body/section/div/div/div/ul/li[1]/a'.</msg>
+<status status="PASS" endtime="20170721 08:43:33.822" starttime="20170721 08:43:31.706"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:43:33.823" starttime="20170721 08:43:31.706"></status>
+</kw>
+<kw name="[SIGN UP] Input valid value into other fields" library="SignUp_keyword">
+<kw name="Input into [First Name]" library="SignUp_keyword">
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>${INDIVIDUAL_FIRSTNAME_TEXTFIELD}</arg>
+<arg>${INDIVIDUAL_FIRSTNAME}</arg>
+</arguments>
+<msg timestamp="20170721 08:43:33.825" level="INFO">Typing text 'DU' into text field 'xpath=/html/body/section/div/div/form/div[1]/input'</msg>
+<status status="PASS" endtime="20170721 08:43:36.987" starttime="20170721 08:43:33.824"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:43:36.987" starttime="20170721 08:43:33.824"></status>
+</kw>
+<kw name="Input into [Last Name]" library="SignUp_keyword">
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>${INDIVIDUAL_LASTNAME_TEXTFIELD}</arg>
+<arg>${INDIVIDUAL_LASTNAME}</arg>
+</arguments>
+<msg timestamp="20170721 08:43:36.989" level="INFO">Typing text 'PHAM' into text field 'xpath=/html/body/section/div/div/form/div[2]/input'</msg>
+<status status="PASS" endtime="20170721 08:43:40.139" starttime="20170721 08:43:36.988"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:43:40.139" starttime="20170721 08:43:36.987"></status>
+</kw>
+<kw name="Input into [Email]" library="SignUp_keyword">
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>${INDIVIDUAL_EMAIL_TEXTFIELD}</arg>
+<arg>${INDIVIDUAL_EMAIL}</arg>
+</arguments>
+<msg timestamp="20170721 08:43:40.141" level="INFO">Typing text 'du9999@yopmail.com' into text field 'xpath=/html/body/section/div/div/form/div[3]/input'</msg>
+<status status="PASS" endtime="20170721 08:43:43.401" starttime="20170721 08:43:40.141"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:43:43.401" starttime="20170721 08:43:40.140"></status>
+</kw>
+<kw name="[SIGN UP] Input valid Password" library="SignUp_keyword">
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>${INDIVIDUAL_SIGNUP_PASSWORD_TEXTFIELD}</arg>
+<arg>${VALID_PASSWORD}</arg>
+</arguments>
+<msg timestamp="20170721 08:43:43.403" level="INFO">Typing text '23081991' into text field 'xpath=/html/body/section/div/div/form/div[4]/input'</msg>
+<status status="PASS" endtime="20170721 08:43:46.582" starttime="20170721 08:43:43.402"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:43:46.583" starttime="20170721 08:43:43.402"></status>
+</kw>
+<kw name="[SIGN UP] Input valid Confirm Password Password" library="SignUp_keyword">
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given `text` into text field identified by `locator`.</doc>
+<arguments>
+<arg>${INDIVIDUAL_SIGNUP_CONFIRM_PASSWORD_TEXTFIELD}</arg>
+<arg>${VALID_PASSWORD}</arg>
+</arguments>
+<msg timestamp="20170721 08:43:46.585" level="INFO">Typing text '23081991' into text field 'xpath=/html/body/section/div/div/form/div[5]/input'</msg>
+<status status="PASS" endtime="20170721 08:43:49.749" starttime="20170721 08:43:46.584"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:43:49.749" starttime="20170721 08:43:46.583"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:43:49.750" starttime="20170721 08:43:33.823"></status>
+</kw>
+<kw name="Click on individual [CREATE ACCOUNT] button" library="SignUp_keyword">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${INDIVIDUAL_CREATEACCOUNT_BUTTON}</arg>
+</arguments>
+<msg timestamp="20170721 08:43:49.752" level="INFO">Clicking element 'xpath=/html/body/section/div/div/form/div[7]/button'.</msg>
+<status status="PASS" endtime="20170721 08:43:51.884" starttime="20170721 08:43:49.751"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:43:51.885" starttime="20170721 08:43:49.750"></status>
+</kw>
+<kw name="[SIGN UP] show [Survey Saurus Notification] popup with content: &quot;Thank you for registering.An email has been sent to email [Email Registry] Please check your email and active the account.&quot; Button: OK" library="SignUp_keyword">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${SIGNUP_POPUP_REGISTER_SUCCESS}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:43:54.146" starttime="20170721 08:43:51.886"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:43:54.146" starttime="20170721 08:43:51.885"></status>
+</kw>
+<kw name="User can click on [OK] button to close notification popup" library="SignUp_keyword">
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks a button identified by `locator`.</doc>
+<arguments>
+<arg>${SIGNUP_POPUP_OK_BUTTON}</arg>
+</arguments>
+<msg timestamp="20170721 08:43:54.148" level="INFO">Clicking button 'xpath=//*[@id="dialogContent_0"]/section/div[2]/button'.</msg>
+<status status="PASS" endtime="20170721 08:43:59.300" starttime="20170721 08:43:54.147"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:43:59.301" starttime="20170721 08:43:54.147"></status>
+</kw>
+<kw name="redirect to [Home] screen" library="SignUp_keyword">
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${ASSERT_SURVEYSAURUS_HEADER_LOGO}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:44:00.315" starttime="20170721 08:43:59.302"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${SIGN_IN_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:44:01.343" starttime="20170721 08:44:00.315"></status>
+</kw>
+<kw name="Wait Until Page Contains Element" library="Selenium2Library">
+<doc>Waits until element specified with `locator` appears on current page.</doc>
+<arguments>
+<arg>${SIGN_UP_MENU}</arg>
+</arguments>
+<status status="PASS" endtime="20170721 08:44:02.355" starttime="20170721 08:44:01.343"></status>
+</kw>
+<status status="PASS" endtime="20170721 08:44:02.355" starttime="20170721 08:43:59.301"></status>
+</kw>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<arguments>
+<arg>${SCREENSHOT}-SIGNUP_1_INDIVIDUAL_012.png</arg>
+</arguments>
+<msg timestamp="20170721 08:44:03.572" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="screenshot-SIGNUP_1_INDIVIDUAL_012.png"&gt;&lt;img src="screenshot-SIGNUP_1_INDIVIDUAL_012.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20170721 08:44:03.573" starttime="20170721 08:44:02.356"></status>
+</kw>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20170721 08:44:04.637" starttime="20170721 08:44:03.573"></status>
+</kw>
+<doc>Check warning message is displayed if User input existed email</doc>
+<status status="PASS" endtime="20170721 08:44:04.637" critical="yes" starttime="20170721 08:43:07.916"></status>
+</test>
+<doc>SIGN UP Testcase.
+
+This test has a workflow that is created using keywords in
+the imported resource file.</doc>
+<status status="FAIL" endtime="20170721 08:44:04.641" starttime="20170721 08:36:40.344"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="11">Critical Tests</stat>
+<stat fail="1" pass="11">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="1" id="s1" name="Valid Signup Individual Tc" pass="11">Valid Signup Individual Tc</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20170721 08:36:40.526" level="ERROR">Error in file '/Users/du/qa-automation-test/NewSaurus/Variables/SignIn_variable.robot': Resource file 'resource.robot' does not exist.</msg>
+<msg timestamp="20170721 08:36:40.532" level="ERROR">Error in file '/Users/du/qa-automation-test/NewSaurus/Dataset/dataset.robot': Resource file 'resource.robot' does not exist.</msg>
+<msg timestamp="20170721 08:36:40.539" level="ERROR">Error in file '/Users/du/qa-automation-test/NewSaurus/Keywords/SignIn_keyword.robot': Resource file 'resource.robot' does not exist.</msg>
+<msg timestamp="20170721 08:36:40.549" level="ERROR">Error in file '/Users/du/qa-automation-test/NewSaurus/Keywords/SignUp_keyword.robot': Resource file 'resource.robot' does not exist.</msg>
+</errors>
+</robot>
