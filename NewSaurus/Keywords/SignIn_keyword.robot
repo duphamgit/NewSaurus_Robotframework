@@ -53,10 +53,10 @@ Main Screen Should Be Open
     wait until page contains element    ${ASSERT_SignIn_PAGE_SIGNIN_MENU}
     wait until page contains element    ${ASSERT_SURVEYSAURUS_HEADER_LOGO}
     #capture Main Screen page screenshot
-    capture page screenshot  ${SCREENSHOT}-MAIN_SCREEN.png
+    #capture page screenshot  ${SCREENSHOT}-MAIN_SCREEN.png
 User can sign in successfully and redirect to [Home] screen
     wait until page contains  All Project
-    capture page screenshot  ${SCREENSHOT}-HOME_SCREEN.png
+    #capture page screenshot  ${SCREENSHOT}-HOME_SCREEN.png
 
 ##Warning message##
 [SIGN IN] Warning message Email is invalid is displayed until User input valid value

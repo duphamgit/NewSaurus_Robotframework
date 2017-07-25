@@ -64,18 +64,18 @@
       <file leaf-file-name="valid_signin_tc.robot" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/valid_signin_tc.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1335">
-              <caret line="94" column="27" lean-forward="false" selection-start-line="94" selection-start-column="27" selection-end-line="94" selection-end-column="27" />
+            <state relative-caret-position="1680">
+              <caret line="117" column="6" lean-forward="false" selection-start-line="117" selection-start-column="6" selection-end-line="117" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="valid_signup_individual_tc.robot" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/valid_signup_individual_tc.robot">
+      <file leaf-file-name="SignIn_keyword.robot" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Keywords/SignIn_keyword.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2580">
-              <caret line="177" column="40" lean-forward="false" selection-start-line="177" selection-start-column="40" selection-end-line="177" selection-end-column="40" />
+            <state relative-caret-position="840">
+              <caret line="58" column="5" lean-forward="false" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -93,7 +93,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Add_new_survey_variable.robot" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Add_new_survey_variable.robot" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Variables/Add_new_survey_variable.robot">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="525">
@@ -149,7 +149,6 @@
         <option value="$PROJECT_DIR$/SignUp_variable.robot" />
         <option value="$PROJECT_DIR$/Environment_variable.robot" />
         <option value="$PROJECT_DIR$/Variables/SignIn_variable.robot" />
-        <option value="$PROJECT_DIR$/valid_signin_tc.robot" />
         <option value="$PROJECT_DIR$/Variables/SignUp_variable.robot" />
         <option value="$PROJECT_DIR$/valid_signup_individual_tc.robot" />
         <option value="$PROJECT_DIR$/Dataset/random_email.robot" />
@@ -159,7 +158,6 @@
         <option value="$PROJECT_DIR$/Keywords/header_keyword.robot" />
         <option value="$PROJECT_DIR$/Dataset/ramdom_string.robot" />
         <option value="$PROJECT_DIR$/Keywords/SignUp_keyword.robot" />
-        <option value="$PROJECT_DIR$/Keywords/SignIn_keyword.robot" />
         <option value="$PROJECT_DIR$/Variables/Header_variable.robot" />
         <option value="$PROJECT_DIR$/Keywords/Header_keyword.robot" />
         <option value="$PROJECT_DIR$/valid_header_tc.robot" />
@@ -171,12 +169,15 @@
         <option value="$PROJECT_DIR$/valid_forgot_your_password_tc.robot" />
         <option value="$PROJECT_DIR$/Variables/List_of_projects_variable.robot" />
         <option value="$PROJECT_DIR$/Variables/Add_new_survey_variable.robot" />
+        <option value="$PROJECT_DIR$/valid_signin_tc.robot" />
+        <option value="$PROJECT_DIR$/Keywords/SignIn_keyword.robot" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="4" />
     <option name="y" value="23" />
-    <option name="width" value="1280" />
+    <option name="width" value="1276" />
     <option name="height" value="777" />
   </component>
   <component name="ProjectView">
@@ -194,6 +195,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -261,7 +263,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -377,10 +378,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="777" extended-state="6" />
+    <frame x="4" y="23" width="1276" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29321486" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2974068" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970297" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19178082" sideWeight="0.5088853" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -522,13 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Keywords/SignIn_keyword.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="38" column="17" lean-forward="true" selection-start-line="38" selection-start-column="17" selection-end-line="38" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Keywords/SignUp_keyword.robot">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="725">
@@ -554,14 +548,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/valid_signin_tc.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1335">
-          <caret line="94" column="27" lean-forward="false" selection-start-line="94" selection-start-column="27" selection-end-line="94" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -648,6 +634,22 @@
           <folding>
             <element signature="e#0#56#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/valid_signin_tc.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="117" column="6" lean-forward="false" selection-start-line="117" selection-start-column="6" selection-end-line="117" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Keywords/SignIn_keyword.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="58" column="5" lean-forward="false" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
